@@ -127,3 +127,4 @@ class AuthorSerializer(serializers.Serializer):
     blogs = serializers.IntegerField(default=0)
     likes = serializers.IntegerField(default=0)
     bookmarks = serializers.IntegerField(default=0)
+    
